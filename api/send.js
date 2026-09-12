@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
 
     const { to, subject, body, senderEmail, senderPassword, apiKey } = req.body || {};
 
-    if (apiKey !== 'MIKASA_SECRET_2026') {
+    if (apiKey !== 'mks_3QyT90HoqpU8op8QyTu76lay68krT7nm-kdy') {
         return res.status(403).json({
             status: 'error',
             message: 'Forbidden: invalid API key',
