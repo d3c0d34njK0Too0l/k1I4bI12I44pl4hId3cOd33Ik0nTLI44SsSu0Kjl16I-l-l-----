@@ -1,0 +1,14 @@
+{
+  "name": "mikasa-mailer",
+  "version": "1.0.0",
+  "description": "Vercel mailer for Mikasa Bot by Rullzzz06",
+  "main": "api/send.js",
+  "scripts": {
+    "start": "node api/send.js"
+  },
+  "author": "Rullzzz06",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
